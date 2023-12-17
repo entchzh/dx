@@ -74,7 +74,7 @@
     "n": 0,
     "h": "ㅎㅎ",
     "b": "이거 지금은 주인만 사진 올리기 가능~!!!",
-    "i": "playentry.org/uploads/8e/9c/8e9c89e9lpuswhb82iih1e7691345h6b.png",
+    "i": "https://playentry.org/uploads/8e/9c/8e9c89e9lpuswhb82iih1e7691345h6b.png",
     "d": "202312172017",
     "c": "7777입니당"
   }
