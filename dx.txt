@@ -80,7 +80,7 @@
     "n": 0,
     "h": "와",
     "b": "첫 다른사람 댓이다!!!!!!!",
-    "i": "",
+    "i": "https://raw.githubusercontent.com/1top10000/dx/main/bb.png",
     "d": "202401051819",
     "c": "7777"
   }
