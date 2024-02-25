@@ -8,4 +8,4 @@ var opt = {
         "thumbnail": base64img
     })
 };
-fetch("https://playentry.org/rest/picture/project/thumbnail/작품id", opt).then(res=>res.JSON()).then(resp=>{console.log(resp)});
+fetch("https://playentry.org/rest/picture/project/thumbnail/작품id", opt).then(res=>res.json()).then(resp=>{console.log(resp)});
