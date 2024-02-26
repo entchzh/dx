@@ -1,4 +1,6 @@
-fetch("https://raw.githubusercontent.com/1top10000/dx/main/png.base64").then(res0 => res0.text()).then(resp0 => {
+var i_d = '65d6a888f7f4ba00751bd86b';
+var ghfilk = "1top10000/dx/main/png.base64";
+fetch("https://raw.githubusercontent.com/"+ghfilk).then(res0 => res0.text()).then(resp0 => {
     var opt = {
         "method": "POST",
         "headers": {
@@ -8,5 +10,5 @@ fetch("https://raw.githubusercontent.com/1top10000/dx/main/png.base64").then(res
             "thumbnail": resp0
         })
     };
-    fetch("https://playentry.org/rest/picture/project/thumbnail/65d6a888f7f4ba00751bd86b", opt).then(res => res.json()).then(resp => { console.log(resp) });
+    fetch("https://playentry.org/rest/picture/project/thumbnail/"+i_d, opt).then(res => res.json()).then(resp => { console.log(resp) });
 });
