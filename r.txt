@@ -1,14 +1,10 @@
-var i_d = prompt("작품id를입력해주세요(작품만들기창에서해주세요)");
-var ghfilk = "1top10000/dx/main/png.base64";
-fetch("https://raw.githubusercontent.com/"+ghfilk).then(res0 => res0.text()).then(resp0 => {
-    var opt = {
+var opt = {
         "method": "POST",
         "headers": {
             "Content-Type": "application/json;charset=UTF-8"
         },
         "body": JSON.stringify({
-            "thumbnail": resp0
+            "thumbnail": base64png
         })
     };
-    fetch("https://playentry.org/rest/picture/project/thumbnail/"+i_d, opt).then(res => res.json()).then(resp => { console.log(resp) });
-});
+    fetch("https://playentry.org/rest/picture/project/thumbnail/작품id", opt).then(res => res.json()).then(resp => { console.log(resp) });
